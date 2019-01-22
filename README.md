@@ -1,37 +1,198 @@
-## Welcome to GitHub Pages
+# Tag mapping A (tagma) from OSM tags to [unite-schema](https://github.com/hfu/unite-schema)
 
-You can use the [editor on GitHub](https://github.com/hfu/tagma/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## 1. nature
+- landuse=*
+- [ ] landuse=cemetry
+- [ ] landuse=landfill
+- natural=tree
+- natural=wood
+- natural=scrub
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 2. water
+- waterway=*
+- natural=water
+- natural=wetland
+- natural=coastline
 
-### Markdown
+## 3. boundary
+- boundary=*
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## 4. road
+- highway=*
+- [ ] highway=bus_stop
+- [ ] highway=motorway
+- [ ] highway=trunk
+- [ ] highway=primary
+- [ ] highway=secondary
+- [ ] highway=motorway_link
+- [ ] highway=trunk_link
+- [ ] highway=primary_link
+- [ ] highway=secondary_link
+- [ ] highway=tertiary
+- [ ] highway=road
+- [ ] highway=tertiary_link
+- [ ] highway=track
+- [ ] highway=bridleway
+- [ ] highway=cycleway
+- [ ] highway=steps
+- [ ] highway=living_street
+- [ ] highway=unclassified
+- [ ] highway=service
+- [ ] highway=residential
+- [ ] highway=pedestrian
+- [ ] highway=footway
+- [ ] highway=path
 
-```markdown
-Syntax highlighted code block
+## 5. railway
+- railway=*
+- [ ] railway=station
+- [ ] railway=halt
+- [ ] railway=tram_stop
+- [ ] railway=rail
+- [ ] railway=light_rail
+- [ ] railway=narrow_gauge
+- [ ] railway=subway
+- [ ] railway=tram
+- [ ] railway=monorail
 
-# Header 1
-## Header 2
-### Header 3
+## 6. route
+- route=*
 
-- Bulleted
-- List
+## 7. structure
+- aeroway=*
+- [ ] aeroway=aerodrome
+- [ ] aeroway=airfield
+- [ ] aeroway=helipad
+- [ ] aeroway=aeroway
+- [ ] aeroway=runway
+- [ ] aeroway=taxiway
+- man_made=*
+- [ ] man_made=tower
+- [ ] man_made=water_tower
+- [ ] man_made=communications_tower
+- [ ] man_made=windmill
+- [ ] man_made=lighthouse
+- [ ] man_made=wastewater_plant
+- [ ] man_made=watermill
+- [ ] man_made=water_works
+- [ ] man_made=water_well
+- [ ] man_made=storage_tank
+- power=*
+- [ ] power=station
+- [ ] power=tower
+- public_transport=*
+- [ ] public_transport=stop_position
 
-1. Numbered
-2. List
+## 8. building
+- building=*
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hfu/tagma/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## 9. place
+- place=*
+- [ ] place=city
+- [ ] place=town
+- [ ] place=village
+- [ ] place=hamlet
+- [ ] place=isolated_dwelling
+- [ ] place=locality
+- [ ] place=suburb
+- [ ] place=neighborhood
+- leisure=*
+- [ ] leisure=golf_course
+- [ ] leisure=water_park
+- [ ] leisure=pitch
+- [ ] leisure=studium
+- [ ] leisure=sports_centre
+- [ ] leisure=swimming_pool
+- [ ] leisure=park
+- [ ] leisure=playground
+- amenity=*
+- [ ] amenity=public_building
+- [ ] amenity=townhall
+- [ ] amenity=embassy
+- [ ] amenity=courthouse
+- [ ] amenity=police
+- [ ] amenity=prison
+- [ ] amenity=fire_station
+- [ ] amenity=post_office
+- [ ] amenity=social_facility
+- [ ] amenity=customs
+- [ ] amenity=shelter
+- [ ] amenity=school
+- [ ] amenity=college
+- [ ] amenity=university
+- [ ] amenity=hospital
+- [ ] amenity=restaurant
+- [ ] amenity=fast_food
+- [ ] amenity=cafe
+- [ ] amenity=food_court
+- [ ] amenity=biergarten
+- [ ] amenity=nightclub
+- [ ] amenity=pub
+- [ ] amenity=bar
+- [ ] amenity=community_centre
+- [ ] amenity=cinema
+- [ ] amenity=library
+- [ ] amenity=arts_centre
+- [ ] amenity=money_transfer
+- [ ] amenity=bureau_de_change
+- [ ] amenity=theatre
+- [ ] amenity=grave_yard
+- [ ] amenity=swimming_pool
+- [ ] amenity=bank
+- [ ] amenity=atm
+- [ ] amenity=marketplace
+- [ ] amenity=car_rental
+- [ ] amenity=pharmacy
+- [ ] amenity=waste_disposal
+- [ ] amenity=drinking_water
+- [ ] amenity=fuel
+- [ ] amenity=airport
+- [ ] amenity=bus_station
+- [ ] amenity=ferry_terminal
+- [ ] amenity=parking
+- historic=*
+- [ ] historic=monument
+- [ ] historic=memorial
+- [ ] historic=castle
+- [ ] historic=fort
+- [ ] historic=archaeological_site
+- [ ] historic=ruins
+- military=*
+- [ ] military=airfield
+- office=*
+- [ ] office=government
+- [ ] office=ngo
+- craft=*
+- [ ] craft=bakery
+- tourism=*
+- [ ] tourism=bed_and_breakfast
+- [ ] tourism=hotel
+- [ ] tourism=motel
+- [ ] tourism=guest_house
+- [ ] tourism=hostel
+- [ ] tourism=chalet
+- [ ] tourism=museum
+- [ ] tourism=zoo
+- [ ] tourism=theme_park
+- shop=*
+- [ ] shop=car_repair
+- [ ] shop=supermarket
+- [ ] shop=kiosk
+- [ ] shop=department_store
+- [ ] shop=clothes
+- [ ] shop=books
+- [ ] shop=butcher
+- [ ] shop=beverages
+- [ ] shop=alcohol
+- [ ] shop=optician
+- [ ] shop=stationery
+- [ ] shop=mobile_phone
+- [ ] shop=greengrocer
+- [ ] shop=car
+- [ ] shop=furniture
+- [ ] shop=computer
+- [ ] shop=hairdresser
+- [ ] shop=bakery
+- [ ] shop=travel_agency
+- [ ] sports=swimming
+- [ ] sports=tennins
