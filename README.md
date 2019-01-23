@@ -1,7 +1,7 @@
 # Tag mapping A (tagma) from OSM tags to [unite-schema](https://github.com/hfu/unite-schema)
 
 ## 1. nature
-- landuse=* NOT ANYMORE
+- landuse=* NOT ANYMORE (some went to water)
 - [ ] landuse=cemetry
 - [ ] landuse=landfill
 - [ ] landuse=meadow
@@ -15,6 +15,11 @@
 - [ ] landuse=farmyard
 - [ ] landuse=farmland
 - [ ] landuse=grass
+- [ ] landuse=residential
+- [ ] landuse=retail
+- [ ] landuse=commercial
+- [ ] landuse=military
+- [ ] landuse=industrial
 - natural=tree
 - natural=wood
 - natural=scrub
@@ -36,6 +41,7 @@
 
 ## 3. boundary
 - boundary=*
+- [ ] boundary=national_park
 
 ## 4. road
 - highway=*
@@ -127,7 +133,8 @@
 - [ ] leisure=park
 - [ ] leisure=playground
 - [ ] leisure=common
-- [ ] leisure=recreation-ground
+- [ ] leisure=recreation_ground
+- [ ] leisure=nature_reserve
 - amenity=*
 - [ ] amenity=public_building
 - [ ] amenity=townhall
@@ -173,6 +180,8 @@
 - [ ] amenity=bus_station
 - [ ] amenity=ferry_terminal
 - [ ] amenity=parking
+- [ ] amenity=airport
+- [ ] amenity=bus_station
 - historic=*
 - [ ] historic=monument
 - [ ] historic=memorial
