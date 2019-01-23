@@ -109,6 +109,7 @@
 - [ ] power=tower
 - public_transport=*
 - [ ] public_transport=stop_position
+- [ ] barrier=* (fence, wall, gate, hedge, bollard, lift_gate, etc.)
 
 ## 8. building
 - building=*
