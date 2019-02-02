@@ -20,6 +20,7 @@
 - [ ] landuse=commercial
 - [ ] landuse=military
 - [ ] landuse=industrial
+- [ ] landuse=basin
 - natural=tree
 - natural=wood
 - natural=scrub
@@ -36,7 +37,6 @@
 - natural=wetland
 - natural=coastline
 - [ ] natural=gracier
-- [ ] landuse=basin
 - [ ] landuse=reservoir
 
 ## 3. boundary
